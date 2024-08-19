@@ -1,12 +1,9 @@
 # 3D Object Detection Model 
 ## Overview
-By the end of the project, we’ll have a model that detects objects in 3D self-driving cars, enhancing self driving car safety. 🚙
-## Features
-Features here
+Welcome to the 3D Object Detection Model for Self-Driving Cars! The objective of this project is to enhance self-driving car safety by detecting objects in 3D using advanced machine learning techniques. Whether you're a data science enthusiast 👩‍💻, a student 🎓, or a professional in the automotive industry 🚗, this project provides valuable insights into the future of autonomous vehicle technology. By the end of the project, we’ll have a model that significantly improves the safety of self-driving cars. 🚙
+## Features here
 ## Installation 
-Installation instructions here
 ## Usage
-Usage here
 ## The Team 
 Angel, Jessamine, Natasha, Salma, Sara
 
