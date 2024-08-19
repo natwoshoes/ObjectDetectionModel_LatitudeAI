@@ -1,6 +1,6 @@
 # 3D Object Detection Model 
 ## Overview
-Project description here
+By the end of the project, we’ll have a model that detects objects in 3D self-driving cars, enhancing self driving car safety. 
 ## Features
 Features here
 ## Installation 
