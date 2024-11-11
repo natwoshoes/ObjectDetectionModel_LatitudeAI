@@ -5,5 +5,5 @@ Welcome to the 3D Object Detection Model for Self-Driving Cars! The objective of
 ## Installation 
 ## Usage
 ## The Team 
-Angel, Jessamine, Natasha, Salma, Sara
+Jessamine, Natasha, Salma, Sara
 
