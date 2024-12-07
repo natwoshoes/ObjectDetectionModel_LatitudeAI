@@ -1,7 +1,7 @@
 # 3D Object Detection Model for Autonomous Vehicles
 
 ## Overview
-Welcome to our 3D Object Detection Model for autonomous vehicles! This project implements advanced computer vision techniques to enhance self-driving car safety through robust 3D object detection and depth estimation.
+Welcome to our 3D Object Detection Model for autonomous vehicles! This project implements advanced computer vision techniques to enhance self-driving car safety through 3D object detection and depth estimation.
 
 The model integrates:
 - Depth estimation using DepthAnything
@@ -38,7 +38,4 @@ The model provides:
 - Multiple visualization perspectives
 
 ## Contributors
-- Jessamine
-- Natasha
-- Salma
-- Sara
+- Jessamine Qu, Natasha Kamara Martinez, Salma Bhar, Sara Phondge
