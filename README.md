@@ -1,4 +1,4 @@
-# 3D Object Detection for Autonomous Vehicles
+# 3D Object Detection for Autonomous Vehicles 🚗
 
 ## Project Overview
 
