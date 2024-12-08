@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on developing a comprehensive computer vision system for autonomous vehicles by integrating depth estimation and object detection capabilities. Our goal was to build a perception system that can accurately detect and localize objects in 3D space, enabling safer autonomous navigation. The system combines models including DepthAnything for depth estimation and Detectron2 for object detection, resulting in accurate 3D scene understanding.
+This project focuses on developing a computer vision system for autonomous vehicles by integrating depth estimation and object detection capabilities. Our goal was to build a perception system that can accurately detect and localize objects in 3D space, enabling safer autonomous navigation. The system combines models including DepthAnything for depth estimation and Detectron2 for object detection, resulting in accurate 3D scene understanding.
 
 ## Data Preparation and Validation
 
