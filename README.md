@@ -118,9 +118,7 @@ tar -xf v1.0-mini.tgz -C /data/sets/nuscenes
 
 - GPU memory requirements: At least 8GB VRAM recommended
 - Disk space: ~4GB required for the nuScenes mini dataset
-- Internet connection required for initial model downloads
 
-For any installation issues, please check the [Issues](link-to-issues) section of our repository or create a new issue.
 ## Acknowledgements
 
 We would like to thank the teams behind DepthAnything and Detectron2 for their excellent models and documentation. Additionally, we're grateful to the nuScenes team for providing such a comprehensive dataset for autonomous driving research. 
