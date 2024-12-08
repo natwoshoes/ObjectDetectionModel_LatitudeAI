@@ -53,11 +53,74 @@ We've identified several areas for future improvement:
 
 ## Setup Instructions
 
-The system can be set up by following these steps:
-1. Open in Google Colab
-2. Download the nuScenes mini dataset
-3. Run the notebook cells sequentially
+## Option 1: Google Colab (Recommended) 🚀
 
+We recommend using Google Colab as it provides a pre configured environment with GPU support and all necessary dependencies.
+
+1. Open the project notebook in Google Colab
+2. All installation commands are included in the notebook
+3. Run the cells in sequence to install dependencies and set up the environment
+
+## Option 2: Local Setup 💻
+
+If you prefer to run this project locally, follow these steps:
+
+### Prerequisites
+- Python 3.8 or higher
+- CUDA-capable GPU (recommended)
+- Git
+
+### Installation Steps
+
+First, clone the repository and set up your environment:
+
+```bash
+# Clone the repository
+git clone [your-repo-url]
+cd [your-repo-name]
+
+# Create and activate a virtual environment
+python -m venv venv
+
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+Install the required packages:
+
+```bash
+# Install core dependencies
+pip install -q "openvino>=2024.2.0" "datasets>=2.14.6" "nncf>=2.11.0" 
+pip install -q "typing-extensions>=4.9.0" eval-type-backport "gradio>=4.19"
+
+# Install machine learning frameworks
+pip install -q "torch" "detectron2" "open3d" "plotly"
+
+# Install dataset utilities
+pip install -q "nuscenes-devkit"
+```
+
+Download and extract the nuScenes mini dataset:
+
+```bash
+# Download the dataset
+wget https://www.nuscenes.org/data/v1.0-mini.tgz
+
+# Create directory and extract
+mkdir -p /data/sets/nuscenes
+tar -xf v1.0-mini.tgz -C /data/sets/nuscenes
+
+
+## Additional Notes
+
+- GPU memory requirements: At least 8GB VRAM recommended
+- Disk space: ~4GB required for the nuScenes mini dataset
+- Internet connection required for initial model downloads
+
+For any installation issues, please check the [Issues](link-to-issues) section of our repository or create a new issue.
 ## Acknowledgements
 
 We would like to thank the teams behind DepthAnything and Detectron2 for their excellent models and documentation. Additionally, we're grateful to the nuScenes team for providing such a comprehensive dataset for autonomous driving research. 
