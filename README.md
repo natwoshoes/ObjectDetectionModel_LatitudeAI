@@ -112,7 +112,7 @@ wget https://www.nuscenes.org/data/v1.0-mini.tgz
 # Create directory and extract
 mkdir -p /data/sets/nuscenes
 tar -xf v1.0-mini.tgz -C /data/sets/nuscenes
-
+```
 
 ## Additional Notes
 
