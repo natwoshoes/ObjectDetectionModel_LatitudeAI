@@ -48,8 +48,7 @@ Our system demonstrates the ability to create accurate 3D scene representations 
 
 ## Future Work
 
-We've identified several areas for future improvement:
-- In the future, we’d like to work on the accuracy of the model and work on detecting more objects in the scene.
+In the future, we’d like to work on the accuracy of the model and work on detecting more objects in the scene.
 
 ## Setup Instructions
 
