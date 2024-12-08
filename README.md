@@ -39,9 +39,8 @@ The integration of our different models required careful attention to coordinate
 
 ### Feature Engineering
 We developed several key features to enhance our system's capabilities:
-- Automatic calculation of object dimensions based on class categories
 - Integration of vehicle orientation estimation using map priors
-- Depth-aware object positioning with accurate scale estimation
+- Depth aware object positioning with accurate scale estimation
 
 ## Results and Key Findings
 
